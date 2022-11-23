@@ -15,16 +15,17 @@ if (numA > numB & numA > numC )
     Console.Write("max = ");
     Console.Write(numA);
 }
-
-if (numB > numC)
-{
-    Console.Write("max = ");
-    Console.Write(numB);
-}
 else
 {
-    Console.Write("max = ");
-    Console.Write(numC);
+    if (numB > numC)
+    {
+        Console.Write("max = ");
+        Console.Write(numB);
+    }
+    else
+    {
+        Console.Write("max = ");
+        Console.Write(numC);
+    }
 }
-
 //Программа выводит максимальное число, даже если два из трех или все числа одинаковые
